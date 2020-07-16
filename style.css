@@ -3,24 +3,38 @@
     height: auto;
 }
 
-.btn {
-    font-size: 30px;
-}
-
-.btn-pro {
+.pro {
     background-color: white;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
 }
 
-.btn-part {
+.part {
     background-color: #1fa298;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
 }
 
-.btn-contact {
+.contact {
     background-color: #a31a26;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 
-.btn-actu {
+.actu {
     background-color: #9d9d9c;
+    text-align: center;
+}
+
+.titre-actu {
+    font-size: 1.3rem;
+    font-weight: bolder;
 }
 
 .logo-had {
@@ -30,4 +44,19 @@
 .imgtop {
     width: 100%;
     height: auto;
+}
+
+.part:hover, .pro:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.bg-black {
+    background-color: black;
+    font-size: 1.5rem;
 }
