@@ -65,3 +65,33 @@
 .bold {
     font-weight: bold;
 }
+
+.marge-haut {
+    margin-top: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+.text {
+    height: 250px;
+}
+
+.btn-green {
+    background-color: #41af69;
+}
+
+.obligatoire {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
+
+.retour {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5rem;
+}
+
+.adresse {
+    padding-left: 5.5rem;
+    padding-top: 1.5rem;
+}

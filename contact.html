@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="text-center">
+    <header class="text-center mb-3 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col"></div>
@@ -23,6 +23,18 @@
             </div>
         </div>
     </header>
+
+    <div class="container">
+            <div class="retour">
+                <a href="index.html"> << Retour à l'accueil </a>
+            </div>
+
+        <h5 class="text-center mb-3 bold">Formulaire de contact</h5>
+
+            <div class="obligatoire">
+                <p> *champs obligatoires</p>
+            </div>
+    </div>
 
     <div class="container text-center">
         <form class="row">
@@ -46,20 +58,39 @@
                 <p class="my-0"><label for="field3" data-aid="label_name" class="bold">Ville*</label></p>
                 <p><input type="text" id="field3" required aria-invalid="false" name="Nom" class="w-100"></p>
             </div>
-            <div class="col-12 col-md-3">
+            <div class="col-12 col-md-3 marge-haut">
                 <input class="form-check-input" type="checkbox" id="gridCheck1">
                 <label class="form-check-label" for="gridCheck1">
                     Je suis un professionnel
                 </label>
             </div>
+            <select class="custom-select col-md-6 mx-auto">
+                <option selected>Objet de votre message</option>
+                <option value="1">Difficulté à me connecter à mon espace professionnel</option>
+                <option value="2">Demande relative au conventionnement avec l'HAD Sud Alsace</option>
+                <option value="3">Demande liée à la prise en charge</option>
+                <option value="3">Ma demande n'est pas dans la liste</option>
+              </select>
             <div class="col-12 col-md-6 offset-md-3">
                 <p class="my-0"><label for="field5" data-aid="label_name" class="bold">Message</label></p>
                 <p><textarea name="message" data-aid="messageField" id="" class="w-100 text"></textarea></p>
             </div>
             <div class="col-12 nav-link">
-                <button type="button" class="btn btn-light btn-hover">Envoyer</button>
+                <button type="button" class="btn btn-green btn-hover">Envoyer</button>
             </div>
         </form>
+    </div>
+
+    <div class="mx-auto col-md-4 offset-md-3 adresse">
+        <p>
+            Adresse :</br>
+            HAD Hospitalisation à Domicile Sud Alsace</br>
+            87 av d'Altkirch</br>
+            68051 MULHOUSE Cedex</br>
+        </p>
+        <p>
+            Accueil téléphonique de 8h à 18h du lundi au vendredi : 03 89 64 75 50
+        </p>
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
