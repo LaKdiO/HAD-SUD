@@ -1,0 +1,9 @@
+.accueil :hover{
+    opacity: 60%;
+    transition-duration: 0.6s;
+}
+
+.imgPro :hover{
+    opacity: 60%;
+    transition-duration: 0.6s;
+}
