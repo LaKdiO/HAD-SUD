@@ -63,7 +63,28 @@
             </div>
 
             <div class="col-lg-12 col-md-12 col-sm-12" style="background-color: #a31a26; padding: 20px;">
-                <a href="" class="formations" style="text-decoration: none; padding: 30px;"><p style="font-size: 20px;"><i class="far fa-arrow-alt-circle-right"></i>  Formation chambre implantable</p></a>
+                <button id="btnPopup" class="formations btnPopup" style="text-decoration: none; padding: 30px;"><p style="font-size: 20px;"><i class="far fa-arrow-alt-circle-right"></i>  Formation chambre implantable</p></button>
+                <div id="overlay" class="overlay">
+                    <div id="popup" class="popup">
+                        <h2 style="text-align: center; color: white; font-weight: bold; margin-bottom: 20px;">
+                        Formation chambre implantable
+                            <span id="btnClose" class="btnClose">&times;</span>
+                        </h2>
+                        <p style="margin-top: 20px;"><span style="color: white; font-weight: bold;">Intervenants : </span>Dr DUFOUR (Anesthésiste au GHRMSA), Equipe opérationnelle d’hygiène du GHRMSA, Mme RINGENBACH, infirmière</p>
+                        <p style="margin-top: 20px;"><span style="color: white; font-weight: bold;">Professionnels concernés : </span>Infirmiers</p>
+                        <p style="margin-top: 20px;"><span style="color: white; font-weight: bold;">Objet de la formation : </span></p>
+                            <p style="margin-left:40px;">- Mise en place, usage et complications</p>
+                            <p style="margin-left:40px;">- Point sur les infections associées aux soins</p>
+                        <p style="margin-top: 20px; color: white; font-weight: bold; text-align: center;">Dates de la formation :</p>
+                        <div class="row" style="justify-content: center; margin-top: 20px;">
+                            <span class="col-lg-1" style="background-color: white; margin-right: 10px; padding: 10px; text-align: center; opacity: 40%;"><span style="font-weight: bold; color: red;">7 Avril 2020</span></br>De 14h00 à 16h00</span>
+                            <span class="col-lg-1" style="background-color: white; margin-right: 10px; padding: 10px; text-align: center; opacity: 40%;"><span style="font-weight: bold; color: red;">12 Mai 2020</span></br>De 14h00 à 16h00</span>
+                            <span class="col-lg-1" style="background-color: white; margin-right: 10px; padding: 10px; text-align: center;"><span style="font-weight: bold; color: red;">13 octobre 2020</span></br>De 14h00 à 16h00</span>
+                            <span class="col-lg-1" style="background-color: white; margin-right: 10px; padding: 10px; text-align: center;"><span style="font-weight: bold; color: red;">17 novembre 2020</span></br>De 14h00 à 16h00</span>
+                        </div>    
+                    </div>
+                </div>
+
                 <a href="#" class="formations" style="text-decoration: none; padding: 30px;"><p style="font-size: 20px;"><i class="far fa-arrow-alt-circle-right"></i>  Formation Picc Line</p></a>
                 <a href="#" class="formations" style="text-decoration: none; padding: 30px;"><p style="font-size: 20px;"><i class="far fa-arrow-alt-circle-right"></i>  Sondage urinaire</p></a>
                 <a href="#" class="formations" style="text-decoration: none; padding: 30px;"><p style="font-size: 20px;"><i class="far fa-arrow-alt-circle-right"></i>  Douleurs</p></a>
@@ -89,6 +110,7 @@
         </div>
     </div>
     </body>
+    <script src="jsPro/script.js"></script>
     <script src="https://kit.fontawesome.com/a017e234b3.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
